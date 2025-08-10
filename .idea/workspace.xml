@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8641cc-5c49-4f3f-b9fd-eebda224e5f9" name="Changes" comment="" />
+    <list default="true" id="2d8641cc-5c49-4f3f-b9fd-eebda224e5f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting015_BeforeTest_AfterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting016_TestNG_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting017_TestNG_Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting018_TestNG_DependsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting019_TestNG_Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting020_TestNG_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting021_TestNG_AlwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting022_TestNG_invocationCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting023_All_Annotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting024_Soft_VS_HARD_AlwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/ChromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/FireFoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/testNG_class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/method_level/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/method_level/testNG_method.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/APISmoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/DBSmoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/UISmoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/testNG_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_group_reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_group_sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_group_smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_param_chrome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_param_firefox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_param_safari.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,33 +44,54 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;deepti249&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/deepti249/ATB13xAPIAutomationPrograms.git&quot;,
+    &quot;accountId&quot;: &quot;ccba2d6a-673c-4705-9f97-695a68599218&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="30pSNeTkVOQj0KjH6aCqEsIopcQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.API_Testing_Lab01_RA.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;TestNG.APITesting_Lab06_TestCase.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_temp.xml.executor&quot;: &quot;Run&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.API_Testing_Lab01_RA.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.APITesting_Lab06_TestCase.executor": "Run",
+    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml.executor": "Run",
+    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml.executor": "Run",
+    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_temp.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\RUSHI\IdeaProjects\ATB13xAPIAutomationPrograms" />
+      <recent name="C:\Users\RUSHI\IdeaProjects\ATB13xAPIAutomationPrograms\src\test\java\com\deepti\sample\ex_05_TestNGExamples\parallel\class_level_cross_browser_Testing" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml">
