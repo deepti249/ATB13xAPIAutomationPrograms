@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8641cc-5c49-4f3f-b9fd-eebda224e5f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting015_BeforeTest_AfterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting016_TestNG_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting017_TestNG_Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting018_TestNG_DependsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting019_TestNG_Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting020_TestNG_Enabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting021_TestNG_AlwaysRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting022_TestNG_invocationCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting023_All_Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/APITesting024_Soft_VS_HARD_AlwaysRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/ChromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/FireFoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/class_level_cross_browser_Testing/testNG_class.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/method_level/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/method_level/testNG_method.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/APISmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/DBSmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/UISmoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_05_TestNGExamples/parallel/test_level/testNG_test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_group_reg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_group_sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_group_smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_param_chrome.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_param_firefox.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_param_safari.xml" afterDir="false" />
+    <list default="true" id="2d8641cc-5c49-4f3f-b9fd-eebda224e5f9" name="Changes" comment="Testng methods">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting025_RestAsssured_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting026_TestNG_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting027_RestAssured_TestNG_AssertJ_Assertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.APITesting025_RestAsssured_Assertions.executor": "Run",
     "TestNG.APITesting_Lab06_TestCase.executor": "Run",
     "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml.executor": "Run",
     "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml.executor": "Run",
@@ -94,16 +74,20 @@
       <recent name="C:\Users\RUSHI\IdeaProjects\ATB13xAPIAutomationPrograms\src\test\java\com\deepti\sample\ex_05_TestNGExamples\parallel\class_level_cross_browser_Testing" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml">
-    <configuration name="API_Testing_Lab01_RA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deepti.sample.ex_01_RA_Basics.API_Testing_Lab01_RA" />
+  <component name="RunManager" selected="TestNG.APITesting025_RestAsssured_Assertions">
+    <configuration name="APITesting025_RestAsssured_Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB13xAPIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deepti.sample.ex_01_RA_Basics.*" />
+          <option name="PATTERN" value="com.deepti.sample.ex_06_TestAssertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.deepti.sample.ex_06_TestAssertions" />
+      <option name="MAIN_CLASS_NAME" value="com.deepti.sample.ex_06_TestAssertions.APITesting025_RestAsssured_Assertions" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITesting025_RestAsssured_Assertions" />
         <item itemvalue="TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml" />
         <item itemvalue="TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_temp.xml" />
         <item itemvalue="TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml" />
         <item itemvalue="TestNG.APITesting_Lab06_TestCase" />
-        <item itemvalue="Application.API_Testing_Lab01_RA" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +157,19 @@
       <option name="presentableId" value="Default" />
       <updated>1754322993833</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testng methods">
+      <option name="closed" value="true" />
+      <created>1754845061174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754845061174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testng methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testng methods" />
   </component>
 </project>
