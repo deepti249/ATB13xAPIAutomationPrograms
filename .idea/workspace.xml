@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8641cc-5c49-4f3f-b9fd-eebda224e5f9" name="Changes" comment="Testng methods">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting025_RestAsssured_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting026_TestNG_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_06_TestAssertions/APITesting027_RestAssured_TestNG_AssertJ_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/manualWay/requestPOJO/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/manualWay/requestPOJO/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/manualWay/responsePOJO/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/tools/requestPOJO/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/tools/requestPOJO/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Class/tools/responsePOJO/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Map/APITesting028_RestAssured_Payload_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/Map/APITestingComplexJSON_To_MAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/deepti/sample/ex_07_Payload_management/String/APITesting027_1_RestAssured_TestNG_AssertJ_Assertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.API_Testing_Lab01_RA.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.APITesting025_RestAsssured_Assertions.executor": "Run",
-    "TestNG.APITesting_Lab06_TestCase.executor": "Run",
-    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml.executor": "Run",
-    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml.executor": "Run",
-    "TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_temp.xml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.API_Testing_Lab01_RA.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.APITesting025_RestAsssured_Assertions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.APITesting_Lab06_TestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_httpmethods.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms/testng_temp.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RUSHI/IdeaProjects/ATB13xAPIAutomationPrograms&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\RUSHI\IdeaProjects\ATB13xAPIAutomationPrograms" />
@@ -165,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754845061174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Testng methods">
+      <option name="closed" value="true" />
+      <created>1754931815689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754931815689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
